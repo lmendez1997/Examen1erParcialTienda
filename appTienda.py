@@ -4,7 +4,7 @@ from datetime import date
 
 st.set_page_config(page_title="Examen I Parcial - Tienda Electrodomésticos")
 
-st.title("🛒 Examen I Parcial - Tienda de Electrodomésticos")
+st.title("🛒 Examen I Parcial: Ledin Mendez Reyes - Tienda de Electrodomésticos")
 
 productos = [
     {"Nombre": "Refrigeradora", "Categoria": "Línea Blanca", "Precio": 18500},
@@ -85,3 +85,4 @@ if st.button("Generar Factura"):
     st.write(f"Total a Pagar: L {total:,.2f}")
 
     st.success("Factura generada correctamente ✅")
+
